@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aliyun-oss-csharp-sdk-master\sdk\aliyun-oss-sdk-dotnetcore.csproj" />
+    <ProjectReference Include="..\Mall.Common\Mall.Common.csproj" />
+    <ProjectReference Include="..\Upgrade.Infrastructure\Upgrade.Infrastructure.csproj" />
+    <ProjectReference Include="..\zero.Logging.File\zero.Logging.File.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\x-editable-develop\" />
+    <Folder Include="wwwroot\lib\fileInput\" />
+    <Folder Include="wwwroot\lib\bootstrapValidator\" />
+    <Folder Include="wwwroot\lib\select\" />
+  </ItemGroup>
+
+</Project>

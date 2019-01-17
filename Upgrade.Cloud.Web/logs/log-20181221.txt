@@ -1,0 +1,837 @@
+2018-12-21 18:02:13.405 +08:00 [Information] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using 'C:\Users\34253\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-21 18:02:14.036 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/  
+2018-12-21 18:02:14.036 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 DEBUG http://localhost:64411/  0
+2018-12-21 18:02:14.063 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 27.3199ms 200 
+2018-12-21 18:02:14.481 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web)
+2018-12-21 18:02:14.791 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web) - Validation state: Valid
+2018-12-21 18:02:14.793 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5425ms.
+2018-12-21 18:02:14.824 +08:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executing ViewResult, running view Index.
+2018-12-21 18:02:14.996 +08:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executed ViewResult - view Index executed in 193.4546ms.
+2018-12-21 18:02:14.997 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web) in 514.9216ms
+2018-12-21 18:02:15.014 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 977.9772ms 200 text/html; charset=utf-8
+2018-12-21 18:02:15.051 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Shared/global.css  
+2018-12-21 18:02:15.055 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/x-editable-develop/dist/bootstrap3-editable/css/bootstrap-editable.css  
+2018-12-21 18:02:15.056 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/css/bootstrap.css  
+2018-12-21 18:02:15.057 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table.css  
+2018-12-21 18:02:15.057 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/css/site.css  
+2018-12-21 18:02:15.090 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Shared/global.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Shared\global.css'
+2018-12-21 18:02:15.090 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table.css'
+2018-12-21 18:02:15.090 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/css/site.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\css\site.css'
+2018-12-21 18:02:15.091 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/x-editable-develop/dist/bootstrap3-editable/css/bootstrap-editable.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\x-editable-develop\dist\bootstrap3-editable\css\bootstrap-editable.css'
+2018-12-21 18:02:15.093 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/toastrjs/toastr.css  
+2018-12-21 18:02:15.096 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 38.9563ms 200 text/css
+2018-12-21 18:02:15.096 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 45.3794ms 200 text/css
+2018-12-21 18:02:15.096 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 39.6337ms 200 text/css
+2018-12-21 18:02:15.097 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/toastrjs/toastr.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\toastrjs\toastr.css'
+2018-12-21 18:02:15.097 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.3875ms 200 text/css
+2018-12-21 18:02:15.097 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 42.0191ms 200 text/css
+2018-12-21 18:02:15.127 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-12-21 18:02:15.127 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 70.7925ms 200 text/css
+2018-12-21 18:02:15.135 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/jquery/dist/jquery.js  
+2018-12-21 18:02:15.139 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/select/dist/css/bootstrap-select.min.css  
+2018-12-21 18:02:15.168 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/select/dist/css/bootstrap-select.min.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\select\dist\css\bootstrap-select.min.css'
+2018-12-21 18:02:15.168 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 28.8905ms 200 text/css
+2018-12-21 18:02:15.168 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css  
+2018-12-21 18:02:15.169 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrapValidator\dist\css\bootstrapValidator.min.css'
+2018-12-21 18:02:15.169 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.4477ms 200 text/css
+2018-12-21 18:02:15.171 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/css/fileinput.css  
+2018-12-21 18:02:15.172 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/css/fileinput.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\css\fileinput.css'
+2018-12-21 18:02:15.172 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.2832ms 200 text/css
+2018-12-21 18:02:15.186 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\jquery\dist\jquery.js'
+2018-12-21 18:02:15.186 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 51.0919ms 200 application/javascript
+2018-12-21 18:02:15.189 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Shared/global.js  
+2018-12-21 18:02:15.189 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/js/bootstrap.js  
+2018-12-21 18:02:15.191 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table.js  
+2018-12-21 18:02:15.195 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-12-21 18:02:15.195 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 5.5839ms 200 application/javascript
+2018-12-21 18:02:15.196 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table.js'
+2018-12-21 18:02:15.199 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 7.579ms 200 application/javascript
+2018-12-21 18:02:15.196 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Shared/global.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Shared\global.js'
+2018-12-21 18:02:15.200 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 10.6422ms 200 application/javascript
+2018-12-21 18:02:15.239 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/x-editable-develop/dist/bootstrap3-editable/js/bootstrap-editable.js  
+2018-12-21 18:02:15.253 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js  
+2018-12-21 18:02:15.263 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\extensions\editable\bootstrap-table-editable.js'
+2018-12-21 18:02:15.263 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 10.0764ms 200 application/javascript
+2018-12-21 18:02:15.276 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table-locale-all.js  
+2018-12-21 18:02:15.416 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table-locale-all.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table-locale-all.js'
+2018-12-21 18:02:15.417 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 140.3374ms 200 application/javascript
+2018-12-21 18:02:15.417 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js  
+2018-12-21 18:02:15.439 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/toastrjs/toastr.min.js  
+2018-12-21 18:02:15.445 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/toastrjs/toastr.min.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\toastrjs\toastr.min.js'
+2018-12-21 18:02:15.445 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 6.4808ms 200 application/javascript
+2018-12-21 18:02:15.446 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\locale\bootstrap-table-zh-CN.min.js'
+2018-12-21 18:02:15.446 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 28.9537ms 200 application/javascript
+2018-12-21 18:02:15.460 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/x-editable-develop/dist/bootstrap3-editable/js/bootstrap-editable.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\x-editable-develop\dist\bootstrap3-editable\js\bootstrap-editable.js'
+2018-12-21 18:02:15.460 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 221.2888ms 200 application/javascript
+2018-12-21 18:02:15.461 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-12-21 18:02:15.461 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/js/site.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\js\site.js'
+2018-12-21 18:02:15.461 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.6865ms 200 application/javascript
+2018-12-21 18:02:15.480 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/js/fileinput.js  
+2018-12-21 18:02:15.537 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Home/Index.js  
+2018-12-21 18:02:15.547 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Home/Index.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Home\Index.js'
+2018-12-21 18:02:15.547 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 9.8217ms 200 application/javascript
+2018-12-21 18:02:15.547 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrapValidator/dist/js/bootstrapValidator.js  
+2018-12-21 18:02:15.576 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/js/locales/zh.js  
+2018-12-21 18:02:15.576 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/js/locales/zh.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\js\locales\zh.js'
+2018-12-21 18:02:15.576 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.5722ms 200 application/javascript
+2018-12-21 18:02:15.577 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/select/dist/js/bootstrap-select.js  
+2018-12-21 18:02:15.653 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrapValidator/dist/js/bootstrapValidator.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrapValidator\dist\js\bootstrapValidator.js'
+2018-12-21 18:02:15.653 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 106.0598ms 200 application/javascript
+2018-12-21 18:02:15.683 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/js/fileinput.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\js\fileinput.js'
+2018-12-21 18:02:15.683 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 203.3765ms 200 application/javascript
+2018-12-21 18:02:15.683 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/select/dist/js/bootstrap-select.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\select\dist\js\bootstrap-select.js'
+2018-12-21 18:02:15.683 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 106.2579ms 200 application/javascript
+2018-12-21 18:02:15.933 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-12-21 18:02:15.934 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-12-21 18:02:15.934 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.5201ms 200 font/woff2
+2018-12-21 18:02:15.985 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=0&_=1545386535340 application/json 
+2018-12-21 18:02:16.006 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:02:16.037 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 0) - Validation state: Valid
+2018-12-21 18:02:16.054 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeClients?limit=5&offset=0&search=&order=desc&itemId=0&_=1545386535341 application/json 
+2018-12-21 18:02:16.075 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeClients", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web)
+2018-12-21 18:02:16.076 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 0) - Validation state: Valid
+2018-12-21 18:02:16.091 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeItems?limit=10&offset=0&search=&order=desc&_=1545386535342 application/json 
+2018-12-21 18:02:16.094 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeItems", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web)
+2018-12-21 18:02:16.095 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) with arguments (10, 0, , , desc) - Validation state: Valid
+2018-12-21 18:02:16.525 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:02:16.525 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:02:16.525 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:02:16.961 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeItems` AS `o`
+2018-12-21 18:02:16.974 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (40ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:02:16.974 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (40ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `ClientUpgradeItems` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:02:17.062 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`CreateTime`, `d`.`Creater`, `d`.`IsUpgradeSucess`, `d`.`ParkId`, `d`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:02:17.064 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 988.154ms.
+2018-12-21 18:02:17.068 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.ClientUpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:02:17.075 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `o`.`Id`, `o`.`Content`, `o`.`CreateTime`, `o`.`Creater`, `o`.`IsValid`, `o`.`Name`
+FROM `UpgradeItems` AS `o`
+ORDER BY `o`.`Id` DESC
+LIMIT @__p_1 OFFSET @__p_0
+2018-12-21 18:02:17.099 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (2ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:02:17.100 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1061.6418ms.
+2018-12-21 18:02:17.101 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:02:17.179 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1084.5833ms.
+2018-12-21 18:02:17.179 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:02:17.197 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 1191.3508ms
+2018-12-21 18:02:17.199 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1213.3281ms 200 application/json; charset=utf-8
+2018-12-21 18:02:17.202 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web) in 1126.4229ms
+2018-12-21 18:02:17.202 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1147.3483ms 200 application/json; charset=utf-8
+2018-12-21 18:02:17.293 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.307 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.313 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.315 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.317 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.319 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.320 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.322 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.324 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.325 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.327 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.357 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:02:17.369 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) in 1275.0828ms
+2018-12-21 18:02:17.370 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1278.7649ms 200 application/json; charset=utf-8
+2018-12-21 18:03:40.313 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeItems?limit=10&offset=0&search=&order=desc&_=1545386535343 application/json 
+2018-12-21 18:03:40.313 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeItems", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web)
+2018-12-21 18:03:40.313 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) with arguments (10, 0, , , desc) - Validation state: Valid
+2018-12-21 18:03:40.314 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeItems` AS `o`
+2018-12-21 18:03:40.315 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `o`.`Id`, `o`.`Content`, `o`.`CreateTime`, `o`.`Creater`, `o`.`IsValid`, `o`.`Name`
+FROM `UpgradeItems` AS `o`
+ORDER BY `o`.`Id` DESC
+LIMIT @__p_1 OFFSET @__p_0
+2018-12-21 18:03:40.315 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.1109ms.
+2018-12-21 18:03:40.316 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:03:40.316 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) in 2.6924ms
+2018-12-21 18:03:40.316 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.1334ms 200 application/json; charset=utf-8
+2018-12-21 18:03:51.829 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/AddItem application/json 45
+2018-12-21 18:03:51.844 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "AddItem", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.AddItem (Upgrade.Cloud.Web)
+2018-12-21 18:03:51.901 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.AddItem (Upgrade.Cloud.Web) with arguments (Upgrade.Cloud.Web.Models.ItemViewModel) - Validation state: Valid
+2018-12-21 18:03:52.044 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (31ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (DbType = Boolean), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `UpgradeItems` (`Content`, `CreateTime`, `Creater`, `IsValid`, `Name`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `Id`
+FROM `UpgradeItems`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-12-21 18:03:52.118 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.AddItem (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 216.9506ms.
+2018-12-21 18:03:52.123 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:03:52.127 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.AddItem (Upgrade.Cloud.Web) in 283.051ms
+2018-12-21 18:03:52.128 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 299.7158ms 200 application/json; charset=utf-8
+2018-12-21 18:03:52.144 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeItems?limit=10&offset=0&search=&order=desc&_=1545386535344 application/json 
+2018-12-21 18:03:52.144 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeItems", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web)
+2018-12-21 18:03:52.145 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) with arguments (10, 0, , , desc) - Validation state: Valid
+2018-12-21 18:03:52.146 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeItems` AS `o`
+2018-12-21 18:03:52.147 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `o`.`Id`, `o`.`Content`, `o`.`CreateTime`, `o`.`Creater`, `o`.`IsValid`, `o`.`Name`
+FROM `UpgradeItems` AS `o`
+ORDER BY `o`.`Id` DESC
+LIMIT @__p_1 OFFSET @__p_0
+2018-12-21 18:03:52.147 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.2849ms.
+2018-12-21 18:03:52.147 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:03:52.149 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:03:52.152 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:03:52.152 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) in 8.0031ms
+2018-12-21 18:03:52.152 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 8.3646ms 200 application/json; charset=utf-8
+2018-12-21 18:04:02.477 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&sort=&itemId=7&_=1545386535345 application/json 
+2018-12-21 18:04:02.477 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:04:02.477 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:04:02.478 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:04:02.479 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:04:02.479 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.5928ms.
+2018-12-21 18:04:02.479 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:04:02.479 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 1.8926ms
+2018-12-21 18:04:02.479 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.1856ms 200 application/json; charset=utf-8
+2018-12-21 18:04:26.618 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 19
+2018-12-21 18:04:26.623 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:04:26.647 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload20181221) - Validation state: Valid
+2018-12-21 18:04:31.233 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:04:31.233 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 4586.0851ms.
+2018-12-21 18:04:31.233 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:04:31.233 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 4610.4579ms
+2018-12-21 18:04:31.233 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4614.8544ms 200 application/json; charset=utf-8
+2018-12-21 18:05:00.789 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 20
+2018-12-21 18:05:00.789 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:05:00.790 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (uploade20181221) - Validation state: Valid
+2018-12-21 18:05:16.757 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:05:19.053 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 18262.8629ms.
+2018-12-21 18:05:19.056 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:19.062 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 18272.2409ms
+2018-12-21 18:05:19.062 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 18272.8009ms 200 application/json; charset=utf-8
+2018-12-21 18:05:21.867 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&sort=&itemId=7&_=1545386535346 application/json 
+2018-12-21 18:05:21.867 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:05:21.868 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:05:21.871 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:05:21.871 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:05:21.871 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 3.6394ms.
+2018-12-21 18:05:21.871 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:21.871 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 3.9379ms
+2018-12-21 18:05:21.872 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4.2094ms 200 application/json; charset=utf-8
+2018-12-21 18:05:28.585 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetBucketNames  
+2018-12-21 18:05:28.587 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetBucketNames", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetBucketNames (Upgrade.Cloud.Web)
+2018-12-21 18:05:28.587 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetBucketNames (Upgrade.Cloud.Web) - Validation state: Valid
+2018-12-21 18:05:33.756 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetBucketNames (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5168.7558ms.
+2018-12-21 18:05:33.756 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType3`2[[System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:33.758 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetBucketNames (Upgrade.Cloud.Web) in 5171.4682ms
+2018-12-21 18:05:33.758 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 5173.2305ms 200 application/json; charset=utf-8
+2018-12-21 18:05:44.524 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/img/loading.gif  
+2018-12-21 18:05:44.525 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/img/loading.gif'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\img\loading.gif'
+2018-12-21 18:05:44.525 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.8768ms 200 image/gif
+2018-12-21 18:05:46.464 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/img/loading-sm.gif  
+2018-12-21 18:05:46.494 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/img/loading-sm.gif'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\img\loading-sm.gif'
+2018-12-21 18:05:46.494 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 30.0594ms 200 image/gif
+2018-12-21 18:05:46.534 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/Upload multipart/form-data; boundary=----WebKitFormBoundaryN29e3O6ouNIR9RBw 606
+2018-12-21 18:05:46.535 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/Upload multipart/form-data; boundary=----WebKitFormBoundaryDW8lMpKkuAaaKo8Z 607
+2018-12-21 18:05:46.541 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Upload", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web)
+2018-12-21 18:05:46.541 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Upload", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web)
+2018-12-21 18:05:46.546 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/Upload multipart/form-data; boundary=----WebKitFormBoundaryEXkpVBzUM7Wwdn5R 607
+2018-12-21 18:05:46.546 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Upload", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web)
+2018-12-21 18:05:46.553 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/Upload multipart/form-data; boundary=----WebKitFormBoundaryzRJLfuYwgbyBXGBd 606
+2018-12-21 18:05:46.554 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Upload", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web)
+2018-12-21 18:05:46.580 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) with arguments (7, temp, tim-upload-1201) - Validation state: Valid
+2018-12-21 18:05:46.580 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) with arguments (7, temp, tim-upload-1201) - Validation state: Valid
+2018-12-21 18:05:46.580 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) with arguments (7, temp, tim-upload-1201) - Validation state: Valid
+2018-12-21 18:05:46.580 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) with arguments (7, temp, tim-upload-1201) - Validation state: Valid
+2018-12-21 18:05:46.892 +08:00 [Information] Upgrade.Cloud.Web.Service.OSSBaseProvider: Put object:temp - 副本 (8).txt succeeded
+2018-12-21 18:05:46.895 +08:00 [Information] Upgrade.Cloud.Web.Service.OSSBaseProvider: Put object:temp - 副本 (10).txt succeeded
+2018-12-21 18:05:46.900 +08:00 [Information] Upgrade.Cloud.Web.Service.OSSBaseProvider: Put object:temp - 副本 (12).txt succeeded
+2018-12-21 18:05:46.905 +08:00 [Information] Upgrade.Cloud.Web.Service.OSSBaseProvider: Put object:temp - 副本 (3).txt succeeded
+2018-12-21 18:05:46.906 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:05:46.953 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (26ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `UpgradeFiles` (`BucketName`, `CreateTime`, `Creater`, `FileName`, `FilePath`, `Key`, `UpgradeItemId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `Id`
+FROM `UpgradeFiles`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-12-21 18:05:46.994 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 414.117ms.
+2018-12-21 18:05:46.994 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:46.995 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) in 453.4257ms
+2018-12-21 18:05:46.995 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 460.5101ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.039 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `UpgradeFiles` (`BucketName`, `CreateTime`, `Creater`, `FileName`, `FilePath`, `Key`, `UpgradeItemId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `Id`
+FROM `UpgradeFiles`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-12-21 18:05:47.088 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 508.1063ms.
+2018-12-21 18:05:47.088 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.088 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) in 534.4004ms
+2018-12-21 18:05:47.089 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 535.3469ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.144 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (104ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `UpgradeFiles` (`BucketName`, `CreateTime`, `Creater`, `FileName`, `FilePath`, `Key`, `UpgradeItemId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `Id`
+FROM `UpgradeFiles`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-12-21 18:05:47.159 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=7&_=1545386535347 application/json 
+2018-12-21 18:05:47.159 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:05:47.160 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:05:47.161 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:05:47.169 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (8ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:05:47.169 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 589.3625ms.
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (74ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `UpgradeFiles` (`BucketName`, `CreateTime`, `Creater`, `FileName`, `FilePath`, `Key`, `UpgradeItemId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `Id`
+FROM `UpgradeFiles`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 10.0334ms.
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) in 628.9486ms
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 635.0965ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 10.5474ms
+2018-12-21 18:05:47.170 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 10.8406ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.193 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 612.7196ms.
+2018-12-21 18:05:47.193 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.193 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Upload (Upgrade.Cloud.Web) in 647.219ms
+2018-12-21 18:05:47.193 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 647.6326ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.225 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=7&_=1545386535348 application/json 
+2018-12-21 18:05:47.225 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:05:47.225 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:05:47.226 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:05:47.228 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:05:47.228 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.5883ms.
+2018-12-21 18:05:47.228 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.228 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 3.0039ms
+2018-12-21 18:05:47.228 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.3681ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.293 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=7&_=1545386535349 application/json 
+2018-12-21 18:05:47.293 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:05:47.293 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:05:47.295 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:05:47.296 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:05:47.296 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.7406ms.
+2018-12-21 18:05:47.296 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.298 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 4.3362ms
+2018-12-21 18:05:47.298 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 5.1296ms 200 application/json; charset=utf-8
+2018-12-21 18:05:47.354 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=7&_=1545386535350 application/json 
+2018-12-21 18:05:47.354 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:05:47.354 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:05:47.356 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (1ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:05:47.357 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:05:47.357 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.9989ms.
+2018-12-21 18:05:47.357 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:05:47.358 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 3.5287ms
+2018-12-21 18:05:47.358 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.9143ms 200 application/json; charset=utf-8
+2018-12-21 18:06:04.493 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/DelFileById application/x-www-form-urlencoded; charset=UTF-8 6
+2018-12-21 18:06:04.501 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "DelFileById", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.DelFileById (Upgrade.Cloud.Web)
+2018-12-21 18:06:04.501 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.DelFileById (Upgrade.Cloud.Web) with arguments (188) - Validation state: Valid
+2018-12-21 18:06:04.563 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`Id` = @__get_Item_0
+LIMIT 1
+2018-12-21 18:06:04.601 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM `UpgradeFiles`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();
+2018-12-21 18:06:04.636 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.DelFileById (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 134.3551ms.
+2018-12-21 18:06:04.636 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:06:04.636 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.DelFileById (Upgrade.Cloud.Web) in 134.9917ms
+2018-12-21 18:06:04.636 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 143.0847ms 200 application/json; charset=utf-8
+2018-12-21 18:06:04.643 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=7&_=1545386535351 application/json 
+2018-12-21 18:06:04.643 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:06:04.644 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 7) - Validation state: Valid
+2018-12-21 18:06:04.645 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:06:04.645 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:06:04.645 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.6646ms.
+2018-12-21 18:06:04.645 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:06:04.645 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 2.0358ms
+2018-12-21 18:06:04.646 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.6821ms 200 application/json; charset=utf-8
+2018-12-21 18:06:09.252 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=10&order=desc&itemId=7&_=1545386535352 application/json 
+2018-12-21 18:06:09.252 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:06:09.253 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, 10, , desc, 7) - Validation state: Valid
+2018-12-21 18:06:09.268 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__search_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE (`d`.`UpgradeItemId` = @__itemId_0) AND (((LOCATE(@__search_1, `d`.`FileName`) > 0) OR (@__search_1 = '')) OR ((LOCATE(@__search_1, `d`.`BucketName`) > 0) OR (@__search_1 = '')))
+2018-12-21 18:06:09.276 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__search_1='?' (Size = 4000), @__p_3='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE (`d`.`UpgradeItemId` = @__itemId_0) AND (((LOCATE(@__search_1, `d`.`FileName`) > 0) OR (@__search_1 = '')) OR ((LOCATE(@__search_1, `d`.`BucketName`) > 0) OR (@__search_1 = '')))
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_3 OFFSET @__p_2
+2018-12-21 18:06:09.277 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 24.0743ms.
+2018-12-21 18:06:09.277 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:06:09.277 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 24.4901ms
+2018-12-21 18:06:09.277 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 24.8596ms 200 application/json; charset=utf-8
+2018-12-21 18:06:35.059 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:06:35.060 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:06:35.060 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:06:52.297 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:06:53.374 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 18314.0816ms.
+2018-12-21 18:06:53.374 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:06:53.375 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 18314.9083ms
+2018-12-21 18:06:53.375 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 18315.3ms 200 application/json; charset=utf-8
+2018-12-21 18:08:28.158 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:08:28.166 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:08:28.167 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:09:33.744 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:09:33.744 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 65577.5796ms.
+2018-12-21 18:09:33.744 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:09:33.744 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 65578.3327ms
+2018-12-21 18:09:33.745 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 65586.1386ms 200 application/json; charset=utf-8
+2018-12-21 18:09:43.971 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:09:43.971 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:09:43.972 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:09:45.527 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:09:45.527 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1555.4101ms.
+2018-12-21 18:09:45.527 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:09:45.527 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 1556.0958ms
+2018-12-21 18:09:45.527 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1556.4229ms 200 application/json; charset=utf-8
+2018-12-21 18:13:54.855 +08:00 [Information] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: User profile is available. Using 'C:\Users\34253\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-21 18:13:55.459 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/  
+2018-12-21 18:13:55.459 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 DEBUG http://localhost:64411/  0
+2018-12-21 18:13:55.496 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 37.1949ms 200 
+2018-12-21 18:13:55.716 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web)
+2018-12-21 18:13:56.253 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web) - Validation state: Valid
+2018-12-21 18:13:56.256 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.838ms.
+2018-12-21 18:13:56.289 +08:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executing ViewResult, running view Index.
+2018-12-21 18:13:56.487 +08:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executed ViewResult - view Index executed in 216.9997ms.
+2018-12-21 18:13:56.488 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web) in 771.3815ms
+2018-12-21 18:13:56.502 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1043.499ms 200 text/html; charset=utf-8
+2018-12-21 18:13:56.563 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/toastrjs/toastr.css  
+2018-12-21 18:13:56.562 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/css/bootstrap.css  
+2018-12-21 18:13:56.565 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/css/site.css  
+2018-12-21 18:13:56.565 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Shared/global.css  
+2018-12-21 18:13:56.582 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table.css  
+2018-12-21 18:13:56.586 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/toastrjs/toastr.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\toastrjs\toastr.css'
+2018-12-21 18:13:56.586 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 23.6305ms 200 text/css
+2018-12-21 18:13:56.587 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/x-editable-develop/dist/bootstrap3-editable/css/bootstrap-editable.css  
+2018-12-21 18:13:56.587 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/x-editable-develop/dist/bootstrap3-editable/css/bootstrap-editable.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\x-editable-develop\dist\bootstrap3-editable\css\bootstrap-editable.css'
+2018-12-21 18:13:56.587 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.5306ms 200 text/css
+2018-12-21 18:13:56.615 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/css/fileinput.css  
+2018-12-21 18:13:56.617 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/css/fileinput.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\css\fileinput.css'
+2018-12-21 18:13:56.617 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.2252ms 200 text/css
+2018-12-21 18:13:56.617 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css  
+2018-12-21 18:13:56.627 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrapValidator\dist\css\bootstrapValidator.min.css'
+2018-12-21 18:13:56.627 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table.css'
+2018-12-21 18:13:56.627 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Shared/global.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Shared\global.css'
+2018-12-21 18:13:56.627 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/css/site.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\css\site.css'
+2018-12-21 18:13:56.630 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 48.4904ms 200 text/css
+2018-12-21 18:13:56.630 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 65.7342ms 200 text/css
+2018-12-21 18:13:56.630 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 13.3876ms 200 text/css
+2018-12-21 18:13:56.631 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 66.3991ms 200 text/css
+2018-12-21 18:13:56.642 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-12-21 18:13:56.642 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 79.895ms 200 text/css
+2018-12-21 18:13:56.661 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Shared/global.js  
+2018-12-21 18:13:56.662 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Shared/global.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Shared\global.js'
+2018-12-21 18:13:56.662 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.4496ms 200 application/javascript
+2018-12-21 18:13:56.662 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/jquery/dist/jquery.js  
+2018-12-21 18:13:56.665 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/js/bootstrap.js  
+2018-12-21 18:13:56.665 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/select/dist/css/bootstrap-select.min.css  
+2018-12-21 18:13:56.683 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/select/dist/css/bootstrap-select.min.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\select\dist\css\bootstrap-select.min.css'
+2018-12-21 18:13:56.683 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 17.9794ms 200 text/css
+2018-12-21 18:13:56.684 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table.js  
+2018-12-21 18:13:56.692 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\jquery\dist\jquery.js'
+2018-12-21 18:13:56.692 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 30.6628ms 200 application/javascript
+2018-12-21 18:13:56.693 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table.js'
+2018-12-21 18:13:56.693 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 8.9335ms 200 application/javascript
+2018-12-21 18:13:56.693 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-12-21 18:13:56.693 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 28.6605ms 200 application/javascript
+2018-12-21 18:13:56.710 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table-locale-all.js  
+2018-12-21 18:13:56.715 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table-locale-all.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table-locale-all.js'
+2018-12-21 18:13:56.715 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 5.2189ms 200 application/javascript
+2018-12-21 18:13:56.718 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js  
+2018-12-21 18:13:56.742 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\locale\bootstrap-table-zh-CN.min.js'
+2018-12-21 18:13:56.742 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 24.3265ms 200 application/javascript
+2018-12-21 18:13:56.742 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/x-editable-develop/dist/bootstrap3-editable/js/bootstrap-editable.js  
+2018-12-21 18:13:56.742 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js  
+2018-12-21 18:13:56.756 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/x-editable-develop/dist/bootstrap3-editable/js/bootstrap-editable.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\x-editable-develop\dist\bootstrap3-editable\js\bootstrap-editable.js'
+2018-12-21 18:13:56.756 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 13.3702ms 200 application/javascript
+2018-12-21 18:13:56.757 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\extensions\editable\bootstrap-table-editable.js'
+2018-12-21 18:13:56.757 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 14.8573ms 200 application/javascript
+2018-12-21 18:13:56.757 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/toastrjs/toastr.min.js  
+2018-12-21 18:13:56.779 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Home/Index.js  
+2018-12-21 18:13:56.779 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Home/Index.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Home\Index.js'
+2018-12-21 18:13:56.779 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.5367ms 200 application/javascript
+2018-12-21 18:13:56.781 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-12-21 18:13:56.782 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/js/fileinput.js  
+2018-12-21 18:13:56.782 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/js/site.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\js\site.js'
+2018-12-21 18:13:56.782 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.9561ms 200 application/javascript
+2018-12-21 18:13:56.817 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrapValidator/dist/js/bootstrapValidator.js  
+2018-12-21 18:13:56.783 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/js/locales/zh.js  
+2018-12-21 18:13:56.828 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/js/locales/zh.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\js\locales\zh.js'
+2018-12-21 18:13:56.828 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 44.8876ms 200 application/javascript
+2018-12-21 18:13:56.828 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/select/dist/js/bootstrap-select.js  
+2018-12-21 18:13:56.830 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/js/fileinput.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\js\fileinput.js'
+2018-12-21 18:13:56.830 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 48.0866ms 200 application/javascript
+2018-12-21 18:13:56.832 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/select/dist/js/bootstrap-select.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\select\dist\js\bootstrap-select.js'
+2018-12-21 18:13:56.832 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4.137ms 200 application/javascript
+2018-12-21 18:13:56.836 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/toastrjs/toastr.min.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\toastrjs\toastr.min.js'
+2018-12-21 18:13:56.836 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 79.0506ms 200 application/javascript
+2018-12-21 18:13:56.868 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrapValidator/dist/js/bootstrapValidator.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrapValidator\dist\js\bootstrapValidator.js'
+2018-12-21 18:13:56.868 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 50.5027ms 200 application/javascript
+2018-12-21 18:13:57.282 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-12-21 18:13:57.283 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-12-21 18:13:57.283 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.583ms 200 font/woff2
+2018-12-21 18:13:57.323 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=0&_=1545387236844 application/json 
+2018-12-21 18:13:57.341 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:13:57.366 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 0) - Validation state: Valid
+2018-12-21 18:13:57.384 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeClients?limit=5&offset=0&search=&order=desc&itemId=0&_=1545387236845 application/json 
+2018-12-21 18:13:57.403 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeClients", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web)
+2018-12-21 18:13:57.404 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 0) - Validation state: Valid
+2018-12-21 18:13:57.465 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeItems?limit=10&offset=0&search=&order=desc&_=1545387236846 application/json 
+2018-12-21 18:13:57.468 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeItems", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web)
+2018-12-21 18:13:57.468 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) with arguments (10, 0, , , desc) - Validation state: Valid
+2018-12-21 18:13:57.793 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:13:57.793 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:13:57.793 +08:00 [Information] Microsoft.EntityFrameworkCore.Infrastructure: Entity Framework Core 2.2.0-rtm-35687 initialized 'UDBContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: MaxPoolSize=128 
+2018-12-21 18:13:58.211 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (49ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:13:58.211 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (49ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `ClientUpgradeItems` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:13:58.211 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (94ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeItems` AS `o`
+2018-12-21 18:13:58.290 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `o`.`Id`, `o`.`Content`, `o`.`CreateTime`, `o`.`Creater`, `o`.`IsValid`, `o`.`Name`
+FROM `UpgradeItems` AS `o`
+ORDER BY `o`.`Id` DESC
+LIMIT @__p_1 OFFSET @__p_0
+2018-12-21 18:13:58.290 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`CreateTime`, `d`.`Creater`, `d`.`IsUpgradeSucess`, `d`.`ParkId`, `d`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:13:58.290 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:13:58.292 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 925.3086ms.
+2018-12-21 18:13:58.292 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 888.3042ms.
+2018-12-21 18:13:58.296 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.ClientUpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:13:58.296 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:13:58.366 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 1025.051ms
+2018-12-21 18:13:58.366 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web) in 963.5396ms
+2018-12-21 18:13:58.367 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 983.7454ms 200 application/json; charset=utf-8
+2018-12-21 18:13:58.368 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1044.9095ms 200 application/json; charset=utf-8
+2018-12-21 18:13:58.370 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 901.673ms.
+2018-12-21 18:13:58.370 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:13:58.411 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:13:58.425 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:13:58.451 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) in 983.3551ms
+2018-12-21 18:13:58.451 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 986.7113ms 200 application/json; charset=utf-8
+2018-12-21 18:14:13.729 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:14:13.731 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:14:13.757 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:15:09.374 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:15:09.375 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 55616.9651ms.
+2018-12-21 18:15:09.375 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:15:09.377 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 55645.8792ms
+2018-12-21 18:15:09.377 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 55648.4751ms 200 application/json; charset=utf-8
+2018-12-21 18:15:16.327 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:15:16.327 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:15:16.328 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:17:38.909 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:17:38.909 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 142581.0573ms.
+2018-12-21 18:17:38.909 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:17:38.909 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 142582.2765ms
+2018-12-21 18:17:38.909 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 142582.8113ms 200 application/json; charset=utf-8
+2018-12-21 18:17:43.553 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:17:43.553 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:17:43.554 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:17:45.338 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:18:11.196 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:18:11.200 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 27645.7477ms.
+2018-12-21 18:18:11.200 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:18:11.200 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 27646.2945ms
+2018-12-21 18:18:11.200 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 27646.6579ms 200 application/json; charset=utf-8
+2018-12-21 18:18:47.806 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:18:47.807 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:18:47.807 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:23:18.616 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:23:18.616 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 270808.6333ms.
+2018-12-21 18:23:18.616 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:23:18.616 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 270809.4072ms
+2018-12-21 18:23:18.616 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 270809.8827ms 200 application/json; charset=utf-8
+2018-12-21 18:23:26.526 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:23:26.526 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:25:47.099 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:25:49.390 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:25:49.390 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2290.8539ms.
+2018-12-21 18:25:49.390 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:25:49.391 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 142864.4196ms
+2018-12-21 18:25:49.391 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 142864.8332ms 200 application/json; charset=utf-8
+2018-12-21 18:27:31.912 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/  
+2018-12-21 18:27:31.912 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "Index", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web)
+2018-12-21 18:27:36.880 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web) - Validation state: Valid
+2018-12-21 18:27:36.880 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0895ms.
+2018-12-21 18:27:36.881 +08:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executing ViewResult, running view Index.
+2018-12-21 18:27:36.884 +08:00 [Information] Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor: Executed ViewResult - view Index executed in 3.9065ms.
+2018-12-21 18:27:36.884 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.Index (Upgrade.Cloud.Web) in 4971.7816ms
+2018-12-21 18:27:36.884 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4972.1433ms 200 text/html; charset=utf-8
+2018-12-21 18:27:36.971 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/x-editable-develop/dist/bootstrap3-editable/css/bootstrap-editable.css  
+2018-12-21 18:27:36.973 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/x-editable-develop/dist/bootstrap3-editable/css/bootstrap-editable.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\x-editable-develop\dist\bootstrap3-editable\css\bootstrap-editable.css'
+2018-12-21 18:27:36.973 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.4441ms 200 text/css
+2018-12-21 18:27:36.974 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Shared/global.css  
+2018-12-21 18:27:36.974 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Shared/global.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Shared\global.css'
+2018-12-21 18:27:36.974 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.6499ms 200 text/css
+2018-12-21 18:27:36.975 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/css/bootstrap.css  
+2018-12-21 18:27:36.978 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table.css  
+2018-12-21 18:27:36.978 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/toastrjs/toastr.css  
+2018-12-21 18:27:36.979 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table.css'
+2018-12-21 18:27:36.979 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.1423ms 200 text/css
+2018-12-21 18:27:36.979 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/css/site.css  
+2018-12-21 18:27:36.979 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/toastrjs/toastr.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\toastrjs\toastr.css'
+2018-12-21 18:27:36.979 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.4405ms 200 text/css
+2018-12-21 18:27:36.986 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/css/site.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\css\site.css'
+2018-12-21 18:27:36.986 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 7.4278ms 200 text/css
+2018-12-21 18:27:36.988 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-12-21 18:27:36.988 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 13.7585ms 200 text/css
+2018-12-21 18:27:37.025 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/css/fileinput.css  
+2018-12-21 18:27:37.036 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/css/fileinput.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\css\fileinput.css'
+2018-12-21 18:27:37.036 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 11.0054ms 200 text/css
+2018-12-21 18:27:37.036 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css  
+2018-12-21 18:27:37.047 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrapValidator\dist\css\bootstrapValidator.min.css'
+2018-12-21 18:27:37.047 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 10.6997ms 200 text/css
+2018-12-21 18:27:37.047 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/select/dist/css/bootstrap-select.min.css  
+2018-12-21 18:27:37.047 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/jquery/dist/jquery.js  
+2018-12-21 18:27:37.047 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/js/bootstrap.js  
+2018-12-21 18:27:37.048 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/select/dist/css/bootstrap-select.min.css'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\select\dist\css\bootstrap-select.min.css'
+2018-12-21 18:27:37.048 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 1.102ms 200 text/css
+2018-12-21 18:27:37.082 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Shared/global.js  
+2018-12-21 18:27:37.090 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Shared/global.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Shared\global.js'
+2018-12-21 18:27:37.090 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 8.4533ms 200 application/javascript
+2018-12-21 18:27:37.090 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table.js  
+2018-12-21 18:27:37.110 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/bootstrap-table-locale-all.js  
+2018-12-21 18:27:37.112 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table-locale-all.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table-locale-all.js'
+2018-12-21 18:27:37.112 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/bootstrap-table.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\bootstrap-table.js'
+2018-12-21 18:27:37.112 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 21.7725ms 200 application/javascript
+2018-12-21 18:27:37.112 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.1359ms 200 application/javascript
+2018-12-21 18:27:37.161 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\jquery\dist\jquery.js'
+2018-12-21 18:27:37.162 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 114.5651ms 200 application/javascript
+2018-12-21 18:27:37.163 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js  
+2018-12-21 18:27:37.163 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/locale/bootstrap-table-zh-CN.min.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\locale\bootstrap-table-zh-CN.min.js'
+2018-12-21 18:27:37.163 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.5317ms 200 application/javascript
+2018-12-21 18:27:37.163 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/x-editable-develop/dist/bootstrap3-editable/js/bootstrap-editable.js  
+2018-12-21 18:27:37.215 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-12-21 18:27:37.216 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 168.1802ms 200 application/javascript
+2018-12-21 18:27:37.220 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js  
+2018-12-21 18:27:37.243 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap-table/dist/extensions/editable/bootstrap-table-editable.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap-table\dist\extensions\editable\bootstrap-table-editable.js'
+2018-12-21 18:27:37.244 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 23.0249ms 200 application/javascript
+2018-12-21 18:27:37.246 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/js/site.js?v=ji3-IxbEzYWjzzLCGkF1KDjrT2jLbbrSYXw-AhMPNIA  
+2018-12-21 18:27:37.247 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/js/site.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\js\site.js'
+2018-12-21 18:27:37.247 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.5839ms 200 application/javascript
+2018-12-21 18:27:37.247 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/toastrjs/toastr.min.js  
+2018-12-21 18:27:37.247 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/toastrjs/toastr.min.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\toastrjs\toastr.min.js'
+2018-12-21 18:27:37.247 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.4346ms 200 application/javascript
+2018-12-21 18:27:37.249 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/x-editable-develop/dist/bootstrap3-editable/js/bootstrap-editable.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\x-editable-develop\dist\bootstrap3-editable\js\bootstrap-editable.js'
+2018-12-21 18:27:37.249 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 85.545ms 200 application/javascript
+2018-12-21 18:27:37.288 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/js/fileinput.js  
+2018-12-21 18:27:37.288 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/scripts/Home/Index.js  
+2018-12-21 18:27:37.288 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/scripts/Home/Index.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\scripts\Home\Index.js'
+2018-12-21 18:27:37.291 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 2.7168ms 200 application/javascript
+2018-12-21 18:27:37.292 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/fileInput/js/locales/zh.js  
+2018-12-21 18:27:37.292 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/js/locales/zh.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\js\locales\zh.js'
+2018-12-21 18:27:37.292 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.537ms 200 application/javascript
+2018-12-21 18:27:37.305 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrapValidator/dist/js/bootstrapValidator.js  
+2018-12-21 18:27:37.321 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/select/dist/js/bootstrap-select.js  
+2018-12-21 18:27:37.323 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/fileInput/js/fileinput.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\fileInput\js\fileinput.js'
+2018-12-21 18:27:37.323 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 34.7344ms 200 application/javascript
+2018-12-21 18:27:37.324 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/select/dist/js/bootstrap-select.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\select\dist\js\bootstrap-select.js'
+2018-12-21 18:27:37.324 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 3.7129ms 200 application/javascript
+2018-12-21 18:27:37.347 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrapValidator/dist/js/bootstrapValidator.js'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrapValidator\dist\js\bootstrapValidator.js'
+2018-12-21 18:27:37.347 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 42.74ms 200 application/javascript
+2018-12-21 18:27:37.636 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-12-21 18:27:37.637 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-12-21 18:27:37.637 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 0.7628ms 200 font/woff2
+2018-12-21 18:27:37.664 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeFiles?limit=5&offset=0&search=&order=desc&itemId=0&_=1545388057259 application/json 
+2018-12-21 18:27:37.664 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeFiles", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web)
+2018-12-21 18:27:37.664 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 0) - Validation state: Valid
+2018-12-21 18:27:37.669 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (1ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:27:37.671 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`BucketName`, `d`.`CreateTime`, `d`.`Creater`, `d`.`FileName`, `d`.`FilePath`, `d`.`Key`, `d`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:27:37.671 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 6.6256ms.
+2018-12-21 18:27:37.671 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeFiles, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:27:37.671 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeFiles (Upgrade.Cloud.Web) in 7.083ms
+2018-12-21 18:27:37.671 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 7.4042ms 200 application/json; charset=utf-8
+2018-12-21 18:27:37.721 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeClients?limit=5&offset=0&search=&order=desc&itemId=0&_=1545388057260 application/json 
+2018-12-21 18:27:37.722 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeClients", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web)
+2018-12-21 18:27:37.722 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web) with arguments (5, 0, , , desc, 0) - Validation state: Valid
+2018-12-21 18:27:37.725 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (2ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `ClientUpgradeItems` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+2018-12-21 18:27:37.726 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__itemId_0='?' (DbType = Int32), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`CreateTime`, `d`.`Creater`, `d`.`IsUpgradeSucess`, `d`.`ParkId`, `d`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `d`
+WHERE `d`.`UpgradeItemId` = @__itemId_0
+ORDER BY `d`.`Id` DESC
+LIMIT @__p_2 OFFSET @__p_1
+2018-12-21 18:27:37.726 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 3.8516ms.
+2018-12-21 18:27:37.726 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.ClientUpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:27:37.726 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeClients (Upgrade.Cloud.Web) in 4.3085ms
+2018-12-21 18:27:37.726 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 4.6602ms 200 application/json; charset=utf-8
+2018-12-21 18:27:37.740 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/Home/GetUpgradeItems?limit=10&offset=0&search=&order=desc&_=1545388057261 application/json 
+2018-12-21 18:27:37.740 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "GetUpgradeItems", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web)
+2018-12-21 18:27:37.740 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) with arguments (10, 0, , , desc) - Validation state: Valid
+2018-12-21 18:27:37.741 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `UpgradeItems` AS `o`
+2018-12-21 18:27:37.742 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `o`.`Id`, `o`.`Content`, `o`.`CreateTime`, `o`.`Creater`, `o`.`IsValid`, `o`.`Name`
+FROM `UpgradeItems` AS `o`
+ORDER BY `o`.`Id` DESC
+LIMIT @__p_1 OFFSET @__p_0
+2018-12-21 18:27:37.742 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.8754ms.
+2018-12-21 18:27:37.742 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Upgrade.Core.DomainModels.UpgradeItem, Upgrade.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:27:37.744 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`CreateTime`, `e`.`Creater`, `e`.`IsUpgradeSucess`, `e`.`ParkId`, `e`.`UpgradeItemId`
+FROM `ClientUpgradeItems` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:27:37.746 +08:00 [Information] Microsoft.EntityFrameworkCore.Database.Command: Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`BucketName`, `e`.`CreateTime`, `e`.`Creater`, `e`.`FileName`, `e`.`FilePath`, `e`.`Key`, `e`.`UpgradeItemId`
+FROM `UpgradeFiles` AS `e`
+WHERE `e`.`UpgradeItemId` = @__get_Item_0
+2018-12-21 18:27:37.746 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.GetUpgradeItems (Upgrade.Cloud.Web) in 6.3024ms
+2018-12-21 18:27:37.746 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 6.6278ms 200 application/json; charset=utf-8
+2018-12-21 18:27:37.818 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 GET http://localhost:64411/favicon.ico  
+2018-12-21 18:27:37.827 +08:00 [Information] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: Sending file. Request path: '/favicon.ico'. Physical path: 'D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Web\wwwroot\favicon.ico'
+2018-12-21 18:27:37.827 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 9.5934ms 200 image/x-icon
+2018-12-21 18:27:42.949 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request starting HTTP/1.1 POST http://localhost:64411/Home/CreateBucket application/x-www-form-urlencoded; charset=UTF-8 17
+2018-12-21 18:27:42.949 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Route matched with {action = "CreateBucket", controller = "Home"}. Executing action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web)
+2018-12-21 18:27:42.950 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executing action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) with arguments (upload122011) - Validation state: Valid
+2018-12-21 18:27:59.549 +08:00 [Error] Upgrade.Cloud.Web.Service.OSSBaseProvider: Failed with error info: One or more errors occurred. (The stream was already consumed. It cannot be read again.)
+2018-12-21 18:28:13.105 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action method Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 30155.4741ms.
+2018-12-21 18:28:13.106 +08:00 [Information] Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor: Executing JsonResult, writing value of type '<>f__AnonymousType1`2[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-21 18:28:13.107 +08:00 [Information] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker: Executed action Upgrade.Cloud.Web.Controllers.HomeController.CreateBucket (Upgrade.Cloud.Web) in 30157.4003ms
+2018-12-21 18:28:13.107 +08:00 [Information] Microsoft.AspNetCore.Hosting.Internal.WebHost: Request finished in 30157.9215ms 200 application/json; charset=utf-8

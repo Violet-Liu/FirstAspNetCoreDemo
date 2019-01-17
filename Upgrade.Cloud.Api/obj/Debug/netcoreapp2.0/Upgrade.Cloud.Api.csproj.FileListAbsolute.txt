@@ -1,0 +1,8 @@
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\bin\Debug\netcoreapp2.0\Upgrade.Cloud.Api.deps.json
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\bin\Debug\netcoreapp2.0\Upgrade.Cloud.Api.runtimeconfig.json
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\bin\Debug\netcoreapp2.0\Upgrade.Cloud.Api.runtimeconfig.dev.json
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\bin\Debug\netcoreapp2.0\Upgrade.Cloud.Api.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\obj\Debug\netcoreapp2.0\Upgrade.Cloud.Api.csprojAssemblyReference.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\obj\Debug\netcoreapp2.0\Upgrade.Cloud.Api.csproj.CoreCompileInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\obj\Debug\netcoreapp2.0\Upgrade.Cloud.Api.AssemblyInfoInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Cloud.Api\obj\Debug\netcoreapp2.0\Upgrade.Cloud.Api.AssemblyInfo.cs

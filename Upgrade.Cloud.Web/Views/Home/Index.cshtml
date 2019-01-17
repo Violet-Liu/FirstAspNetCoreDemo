@@ -1,0 +1,152 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+<script src="~/scripts/Home/Index.js"></script>
+<link href="~/lib/fileInput/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+<script src="~/lib/fileInput/js/fileinput.min.js" type="text/javascript"></script>
+<script src="~/lib/fileInput/js/locales/zh.js" type="text/javascript"></script>
+<link href="~/lib/bootstrapValidator/dist/css/bootstrapValidator.min.css" media="all" rel="stylesheet" type="text/css" />
+<script src="~/lib/bootstrapValidator/dist/js/bootstrapValidator.min.js"></script>
+<script src="~/lib/select/dist/js/bootstrap-select.min.js" type="text/javascript"></script>
+<link href="~/lib/select/dist/css/bootstrap-select.min.css" media="all" rel="stylesheet" type="text/css" />
+<div class="row clearfix">
+    <div class="col-md-12 column">
+        <div class="panel-body" style="padding-bottom:0px;">
+            <div id="toolbar" class="btn-group">
+                <button id="btn_add" type="button" class="btn btn-default">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+                </button>
+                <button id="btn_addBucket" type="button" class="btn btn-default">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增存储空间
+                </button>
+            </div>
+            <table id="tb_upgradeItems" data-reorderable-columns="true" style="table-layout:fixed;width:100%;border:0px;margin: 0px;"></table>
+        </div>
+    </div>
+</div>
+
+<form id="itemform">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:cornflowerblue">
+                    <h4 class="modal-title" id="myModalLabel">新增</h4>
+                </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="txt_name">更新名称</label>
+                            <input type="text" name="txt_name" class="form-control" id="txt_name" placeholder="名称">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt_content">更新内容</label>
+                            <textarea type="text" rows="3" name="txt_content" class="form-control" id="txt_content" placeholder="更新内容"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="btn_close" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                        <button type="submit" id="btn_submit" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</form>
+
+<form id="fileform">
+    <div class="modal fade" id="fileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:cornflowerblue">
+                    <h4 class="modal-title">上传文件</h4>
+                </div>
+                <div class="modal-body form-border" style="height:800px;overflow-y:scroll;">
+                    <div class="clearfix">
+                            <div class="form-group  form-border" style="float:left;width:49%">
+                                <label for="filepath" style="margin-right:5px;margin-top:6px;">文件路径</label>
+                                <input type="text" style="width:80%;display:inline-block;" name="filepath" class="form-control" id="filepath" placeholder="文件路径">
+                            </div>
+                            <div class="form-group  form-border" style="float:right;width:49%">
+                                <label for="bucketName" style="margin-right:5px;margin-top:6px;">存储空间</label>
+                                <select id="bucketName" style="width:100%;display:inline-block;" name="bucketName" class="selectpicker" data-live-search="true" title="请选择存储空间"></select>
+                            </div> 
+                    </div>
+                    <div class="file-loading form-border">
+                        <input id="uploadfile" type="file" multiple>
+                    </div>
+                    <div class="panel-body form-border">
+                        <table id="tb_upgradefiles" data-reorderable-columns="true" style="table-layout:fixed;width:100%;border:0px;margin: 0px;"></table>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="close" class="btn btn-default" name="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                        @*<button type="button" id="submit" class="btn btn-primary" name="submit" data-dismiss="modal"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>*@
+                    </div>
+                </div>
+         </div>
+    </div>
+</form>
+
+<form id="clientform">
+    <div class="modal fade" id="clientModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:cornflowerblue">
+                    <h4 class="modal-title">客户端升级记录</h4>
+                </div>
+                <div class="modal-body form-border">
+                    <div class="panel-body form-border">
+                        <table id="tb_upgradeclients" data-reorderable-columns="true" style="table-layout:fixed;width:100%;border:0px;margin: 0px;"></table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="close" class="btn btn-default" name="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                    @*<button type="button" id="submit" class="btn btn-primary" name="submit" data-dismiss="modal"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<form id="bucketform">
+    <div class="modal fade" id="bucketModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:cornflowerblue">
+                    <h4 class="modal-title" id="myModalLabel">新增</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="nbucketName">名称</label>
+                        <input type="text" name="nbucketName" class="form-control" id="nbucketName" placeholder="名称">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btn_close" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                    <button type="submit" id="btn_submit_bucket" class="btn btn-primary" data-dismiss="modal"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<div class="modal fade" id="parkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:cornflowerblue">
+                <h4 class="modal-title" id="myModalLabel">选择升级停车场</h4>
+            </div>
+            <div class="modal-body form-border" style="height:500px;overflow-y:scroll;">
+                <div class="panel-body form-border">
+                    <table id="tb_parks" data-reorderable-columns="true" style="table-layout:fixed;width:100%;border:0px;margin: 0px;"></table>
+                </div>
+                <div class="panel-body form-border">
+                    <table id="tb_clientsets" data-reorderable-columns="true" style="table-layout:fixed;width:100%;border:0px;margin: 0px;"></table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+            </div>
+        </div>
+    </div>
+</div>

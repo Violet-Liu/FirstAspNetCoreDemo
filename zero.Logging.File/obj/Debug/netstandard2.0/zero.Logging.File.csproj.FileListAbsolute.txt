@@ -1,0 +1,12 @@
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\bin\Debug\netstandard2.0\zero.Logging.File.deps.json
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\bin\Debug\netstandard2.0\zero.Logging.File.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\bin\Debug\netstandard2.0\zero.Logging.File.pdb
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\bin\Debug\netstandard2.0\zero.Logging.Batching.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\bin\Debug\netstandard2.0\zero.Logging.Batching.pdb
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.csprojAssemblyReference.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.csproj.CoreCompileInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.AssemblyInfoInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.AssemblyInfo.cs
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.csproj.CopyComplete
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\zero.Logging.File\obj\Debug\netstandard2.0\zero.Logging.File.pdb

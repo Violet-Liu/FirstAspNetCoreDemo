@@ -1,0 +1,9 @@
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\bin\Debug\netstandard2.0\Mall.Common.deps.json
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\bin\Debug\netstandard2.0\Mall.Common.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\bin\Debug\netstandard2.0\Mall.Common.pdb
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\obj\Debug\netstandard2.0\Mall.Common.csprojAssemblyReference.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\obj\Debug\netstandard2.0\Mall.Common.csproj.CoreCompileInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\obj\Debug\netstandard2.0\Mall.Common.AssemblyInfoInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\obj\Debug\netstandard2.0\Mall.Common.AssemblyInfo.cs
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\obj\Debug\netstandard2.0\Mall.Common.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\Mall.Common\obj\Debug\netstandard2.0\Mall.Common.pdb

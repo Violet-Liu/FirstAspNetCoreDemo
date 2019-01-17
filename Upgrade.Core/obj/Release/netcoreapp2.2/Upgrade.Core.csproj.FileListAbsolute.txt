@@ -1,0 +1,9 @@
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\bin\Release\netcoreapp2.2\Upgrade.Core.deps.json
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\bin\Release\netcoreapp2.2\Upgrade.Core.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\bin\Release\netcoreapp2.2\Upgrade.Core.pdb
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\obj\Release\netcoreapp2.2\Upgrade.Core.csprojAssemblyReference.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\obj\Release\netcoreapp2.2\Upgrade.Core.csproj.CoreCompileInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\obj\Release\netcoreapp2.2\Upgrade.Core.AssemblyInfoInputs.cache
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\obj\Release\netcoreapp2.2\Upgrade.Core.AssemblyInfo.cs
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\obj\Release\netcoreapp2.2\Upgrade.Core.dll
+D:\公司项目\半自动化升级\Upgrade.Cloud\Upgrade.Core\obj\Release\netcoreapp2.2\Upgrade.Core.pdb
